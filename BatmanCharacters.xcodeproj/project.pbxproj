@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCA5678E1A9D074800540A3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA5678D1A9D074800540A3A /* main.m */; };
+		CCA567911A9D074800540A3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA567901A9D074800540A3A /* AppDelegate.m */; };
+		CCA567941A9D074800540A3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA567931A9D074800540A3A /* ViewController.m */; };
+		CCA567971A9D074800540A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA567951A9D074800540A3A /* Main.storyboard */; };
+		CCA567991A9D074800540A3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA567981A9D074800540A3A /* Images.xcassets */; };
+		CCA5679C1A9D074800540A3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA5679A1A9D074800540A3A /* LaunchScreen.xib */; };
+		CCA567A81A9D074800540A3A /* BatmanCharactersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA567A71A9D074800540A3A /* BatmanCharactersTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCA567A21A9D074800540A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA567801A9D074800540A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA567871A9D074800540A3A;
+			remoteInfo = BatmanCharacters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCA567881A9D074800540A3A /* BatmanCharacters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatmanCharacters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA5678C1A9D074800540A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA5678D1A9D074800540A3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCA5678F1A9D074800540A3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCA567901A9D074800540A3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCA567921A9D074800540A3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCA567931A9D074800540A3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCA567961A9D074800540A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCA567981A9D074800540A3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCA5679B1A9D074800540A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCA567A11A9D074800540A3A /* BatmanCharactersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatmanCharactersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA567A61A9D074800540A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA567A71A9D074800540A3A /* BatmanCharactersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatmanCharactersTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA567851A9D074800540A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA5679E1A9D074800540A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCA5677F1A9D074800540A3A = {
+			isa = PBXGroup;
+			children = (
+				CCA5678A1A9D074800540A3A /* BatmanCharacters */,
+				CCA567A41A9D074800540A3A /* BatmanCharactersTests */,
+				CCA567891A9D074800540A3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA567891A9D074800540A3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA567881A9D074800540A3A /* BatmanCharacters.app */,
+				CCA567A11A9D074800540A3A /* BatmanCharactersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA5678A1A9D074800540A3A /* BatmanCharacters */ = {
+			isa = PBXGroup;
+			children = (
+				CCA5678F1A9D074800540A3A /* AppDelegate.h */,
+				CCA567901A9D074800540A3A /* AppDelegate.m */,
+				CCA567921A9D074800540A3A /* ViewController.h */,
+				CCA567931A9D074800540A3A /* ViewController.m */,
+				CCA567951A9D074800540A3A /* Main.storyboard */,
+				CCA567981A9D074800540A3A /* Images.xcassets */,
+				CCA5679A1A9D074800540A3A /* LaunchScreen.xib */,
+				CCA5678B1A9D074800540A3A /* Supporting Files */,
+			);
+			path = BatmanCharacters;
+			sourceTree = "<group>";
+		};
+		CCA5678B1A9D074800540A3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA5678C1A9D074800540A3A /* Info.plist */,
+				CCA5678D1A9D074800540A3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCA567A41A9D074800540A3A /* BatmanCharactersTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA567A71A9D074800540A3A /* BatmanCharactersTests.m */,
+				CCA567A51A9D074800540A3A /* Supporting Files */,
+			);
+			path = BatmanCharactersTests;
+			sourceTree = "<group>";
+		};
+		CCA567A51A9D074800540A3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA567A61A9D074800540A3A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA567871A9D074800540A3A /* BatmanCharacters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA567AB1A9D074800540A3A /* Build configuration list for PBXNativeTarget "BatmanCharacters" */;
+			buildPhases = (
+				CCA567841A9D074800540A3A /* Sources */,
+				CCA567851A9D074800540A3A /* Frameworks */,
+				CCA567861A9D074800540A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatmanCharacters;
+			productName = BatmanCharacters;
+			productReference = CCA567881A9D074800540A3A /* BatmanCharacters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCA567A01A9D074800540A3A /* BatmanCharactersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA567AE1A9D074800540A3A /* Build configuration list for PBXNativeTarget "BatmanCharactersTests" */;
+			buildPhases = (
+				CCA5679D1A9D074800540A3A /* Sources */,
+				CCA5679E1A9D074800540A3A /* Frameworks */,
+				CCA5679F1A9D074800540A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA567A31A9D074800540A3A /* PBXTargetDependency */,
+			);
+			name = BatmanCharactersTests;
+			productName = BatmanCharactersTests;
+			productReference = CCA567A11A9D074800540A3A /* BatmanCharactersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA567801A9D074800540A3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = plad;
+				TargetAttributes = {
+					CCA567871A9D074800540A3A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CCA567A01A9D074800540A3A = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CCA567871A9D074800540A3A;
+					};
+				};
+			};
+			buildConfigurationList = CCA567831A9D074800540A3A /* Build configuration list for PBXProject "BatmanCharacters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCA5677F1A9D074800540A3A;
+			productRefGroup = CCA567891A9D074800540A3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA567871A9D074800540A3A /* BatmanCharacters */,
+				CCA567A01A9D074800540A3A /* BatmanCharactersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCA567861A9D074800540A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA567971A9D074800540A3A /* Main.storyboard in Resources */,
+				CCA5679C1A9D074800540A3A /* LaunchScreen.xib in Resources */,
+				CCA567991A9D074800540A3A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA5679F1A9D074800540A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA567841A9D074800540A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA567941A9D074800540A3A /* ViewController.m in Sources */,
+				CCA567911A9D074800540A3A /* AppDelegate.m in Sources */,
+				CCA5678E1A9D074800540A3A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA5679D1A9D074800540A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA567A81A9D074800540A3A /* BatmanCharactersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCA567A31A9D074800540A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA567871A9D074800540A3A /* BatmanCharacters */;
+			targetProxy = CCA567A21A9D074800540A3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCA567951A9D074800540A3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA567961A9D074800540A3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCA5679A1A9D074800540A3A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA5679B1A9D074800540A3A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCA567A91A9D074800540A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCA567AA1A9D074800540A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCA567AC1A9D074800540A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BatmanCharacters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCA567AD1A9D074800540A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BatmanCharacters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCA567AF1A9D074800540A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BatmanCharactersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatmanCharacters.app/BatmanCharacters";
+			};
+			name = Debug;
+		};
+		CCA567B01A9D074800540A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BatmanCharactersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatmanCharacters.app/BatmanCharacters";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA567831A9D074800540A3A /* Build configuration list for PBXProject "BatmanCharacters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA567A91A9D074800540A3A /* Debug */,
+				CCA567AA1A9D074800540A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA567AB1A9D074800540A3A /* Build configuration list for PBXNativeTarget "BatmanCharacters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA567AC1A9D074800540A3A /* Debug */,
+				CCA567AD1A9D074800540A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCA567AE1A9D074800540A3A /* Build configuration list for PBXNativeTarget "BatmanCharactersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA567AF1A9D074800540A3A /* Debug */,
+				CCA567B01A9D074800540A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCA567801A9D074800540A3A /* Project object */;
+}
