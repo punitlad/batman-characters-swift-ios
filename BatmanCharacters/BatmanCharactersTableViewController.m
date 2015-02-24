@@ -13,29 +13,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.batmanCharacters = [[NSMutableArray alloc] init];
-    [self loadInitialData];
+    self.batmanCharacters = [BatmanCharacter initialSetOfBatmanCharacters];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-- (void) loadInitialData {
-    BatmanCharacter *joker = [[BatmanCharacter alloc] init];
-    joker.characterName = @"Joker";
-    BatmanCharacter *riddler = [[BatmanCharacter alloc] init];
-    riddler.characterName = @"Riddler";
-    BatmanCharacter *twoFace = [[BatmanCharacter alloc] init];
-    twoFace.characterName = @"TwoFace";
-    BatmanCharacter *batman = [[BatmanCharacter alloc] init];
-    batman.characterName = @"Batman";
-    
-    [self.batmanCharacters addObject:joker];
-    [self.batmanCharacters addObject:riddler];
-    [self.batmanCharacters addObject:twoFace];
-    [self.batmanCharacters addObject:batman];
 }
 
 #pragma mark - Table view data source

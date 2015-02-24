@@ -14,4 +14,6 @@
 @property BOOL characterViewed;
 @property (readonly) NSDate *creationDate;
 
++ (NSMutableArray *) initialSetOfBatmanCharacters;
+
 @end
