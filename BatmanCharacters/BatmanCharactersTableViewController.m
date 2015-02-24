@@ -53,6 +53,12 @@
     BatmanCharacter *batmanCharacter = [self.batmanCharacters objectAtIndex:indexPath.row];
     cell.textLabel.text = batmanCharacter.characterName;
     
+    if (batmanCharacter.characterViewed) {
+        cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    } else {
+        cell.accessoryType = UITableViewCellAccessoryNone;
+    }
+    
     return cell;
 }
 
