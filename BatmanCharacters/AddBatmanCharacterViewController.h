@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BatmanCharacter.h"
 
 @interface AddBatmanCharacterViewController : UIViewController
+
+@property BatmanCharacter *batmanCharacter;
 
 @end

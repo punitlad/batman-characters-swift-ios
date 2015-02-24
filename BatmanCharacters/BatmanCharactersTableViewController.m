@@ -1,5 +1,6 @@
 #import "BatmanCharactersTableViewController.h"
 #import "BatmanCharacter.h"
+#import "AddBatmanCharacterViewController.h"
 
 @interface BatmanCharactersTableViewController ()
 
@@ -107,7 +108,12 @@
 */
 
 - (IBAction)unwindToList:(UIStoryboardSegue *)segue {
-    
+    AddBatmanCharacterViewController *source = [segue sourceViewController];
+    BatmanCharacter *batmanCharacter = source.batmanCharacter;
+    if (batmanCharacter != nil) {
+        [self.batmanCharacters addObject:batmanCharacter];
+        [self.tableView reloadData];
+    }
 }
 
 #pragma mark - table view delegates
