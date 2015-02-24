@@ -13,6 +13,8 @@
 		CCA567991A9D074800540A3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA567981A9D074800540A3A /* Images.xcassets */; };
 		CCA5679C1A9D074800540A3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA5679A1A9D074800540A3A /* LaunchScreen.xib */; };
 		CCA567A81A9D074800540A3A /* BatmanCharactersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA567A71A9D074800540A3A /* BatmanCharactersTests.m */; };
+		CCA567B31A9D11C600540A3A /* AddBatmanCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA567B21A9D11C600540A3A /* AddBatmanCharacterViewController.m */; };
+		CCA567B61A9D12E500540A3A /* BatmanCharactersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA567B51A9D12E500540A3A /* BatmanCharactersTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,10 @@
 		CCA567A11A9D074800540A3A /* BatmanCharactersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatmanCharactersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA567A61A9D074800540A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCA567A71A9D074800540A3A /* BatmanCharactersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatmanCharactersTests.m; sourceTree = "<group>"; };
+		CCA567B11A9D11C600540A3A /* AddBatmanCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBatmanCharacterViewController.h; sourceTree = "<group>"; };
+		CCA567B21A9D11C600540A3A /* AddBatmanCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBatmanCharacterViewController.m; sourceTree = "<group>"; };
+		CCA567B41A9D12E500540A3A /* BatmanCharactersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatmanCharactersTableViewController.h; sourceTree = "<group>"; };
+		CCA567B51A9D12E500540A3A /* BatmanCharactersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatmanCharactersTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +84,13 @@
 		CCA5678A1A9D074800540A3A /* BatmanCharacters */ = {
 			isa = PBXGroup;
 			children = (
+				CCA567B11A9D11C600540A3A /* AddBatmanCharacterViewController.h */,
+				CCA567B21A9D11C600540A3A /* AddBatmanCharacterViewController.m */,
 				CCA5678F1A9D074800540A3A /* AppDelegate.h */,
 				CCA567901A9D074800540A3A /* AppDelegate.m */,
 				CCA567951A9D074800540A3A /* Main.storyboard */,
+				CCA567B41A9D12E500540A3A /* BatmanCharactersTableViewController.h */,
+				CCA567B51A9D12E500540A3A /* BatmanCharactersTableViewController.m */,
 				CCA567981A9D074800540A3A /* Images.xcassets */,
 				CCA5679A1A9D074800540A3A /* LaunchScreen.xib */,
 				CCA5678B1A9D074800540A3A /* Supporting Files */,
@@ -214,7 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCA567B31A9D11C600540A3A /* AddBatmanCharacterViewController.m in Sources */,
 				CCA567911A9D074800540A3A /* AppDelegate.m in Sources */,
+				CCA567B61A9D12E500540A3A /* BatmanCharactersTableViewController.m in Sources */,
 				CCA5678E1A9D074800540A3A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
