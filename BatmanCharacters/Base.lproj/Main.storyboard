@@ -5,7 +5,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Batman Characters-->
         <scene sceneID="5ep-8O-X9A">
             <objects>
                 <tableViewController id="64B-0C-yg2" sceneMemberID="viewController">
@@ -220,11 +220,17 @@
                             <outlet property="delegate" destination="64B-0C-yg2" id="drJ-wh-dny"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="fmG-hw-TIT"/>
+                    <navigationItem key="navigationItem" title="Batman Characters" id="fmG-hw-TIT">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="658-pm-r7r">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="STN-Ze-oOk"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tBy-Mu-IjS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="430" y="373"/>
+            <point key="canvasLocation" x="374" y="373"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
