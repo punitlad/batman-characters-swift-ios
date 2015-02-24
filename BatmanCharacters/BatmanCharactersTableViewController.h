@@ -10,4 +10,6 @@
 
 @interface BatmanCharactersTableViewController : UITableViewController
 
+- (IBAction)unwindToList:(UIStoryboardSegue *)segue;
+
 @end

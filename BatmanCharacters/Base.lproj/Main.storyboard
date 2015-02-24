@@ -259,11 +259,20 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add Batman Character" id="UyA-n9-qhi">
-                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="EtZ-5x-kA8"/>
-                        <barButtonItem key="rightBarButtonItem" title="Save" id="c48-tJ-VDN"/>
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="EtZ-5x-kA8">
+                            <connections>
+                                <segue destination="jlr-ia-zhN" kind="unwind" unwindAction="unwindToList:" id="n5g-QC-EUG"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="c48-tJ-VDN">
+                            <connections>
+                                <segue destination="jlr-ia-zhN" kind="unwind" unwindAction="unwindToList:" id="b1q-nz-npX"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="jlr-ia-zhN" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1964" y="382"/>
         </scene>
