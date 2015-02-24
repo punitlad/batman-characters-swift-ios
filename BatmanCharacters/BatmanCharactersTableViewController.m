@@ -1,14 +1,9 @@
-//
-//  BatmanCharactersTableViewController.m
-//  BatmanCharacters
-//
-//  Created by plad on 2015-02-24.
-//  Copyright (c) 2015 plad. All rights reserved.
-//
-
 #import "BatmanCharactersTableViewController.h"
+#import "BatmanCharacter.h"
 
 @interface BatmanCharactersTableViewController ()
+
+@property NSMutableArray *batmanCharacters;
 
 @end
 
@@ -17,11 +12,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.batmanCharacters = [[NSMutableArray alloc] init];
+    [self loadInitialData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,29 +21,40 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void) loadInitialData {
+    BatmanCharacter *joker = [[BatmanCharacter alloc] init];
+    joker.characterName = @"Joker";
+    BatmanCharacter *riddler = [[BatmanCharacter alloc] init];
+    riddler.characterName = @"Riddler";
+    BatmanCharacter *twoFace = [[BatmanCharacter alloc] init];
+    twoFace.characterName = @"TwoFace";
+    BatmanCharacter *batman = [[BatmanCharacter alloc] init];
+    batman.characterName = @"Batman";
+    
+    [self.batmanCharacters addObject:joker];
+    [self.batmanCharacters addObject:riddler];
+    [self.batmanCharacters addObject:twoFace];
+    [self.batmanCharacters addObject:batman];
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
+    return [self.batmanCharacters count];
 }
 
-/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"BatmanCharacterPrototypeCell"
+                                                            forIndexPath:indexPath];
+    BatmanCharacter *batmanCharacter = [self.batmanCharacters objectAtIndex:indexPath.row];
+    cell.textLabel.text = batmanCharacter.characterName;
     
     return cell;
 }
-*/
 
 /*
 // Override to support conditional editing of the table view.
@@ -97,8 +100,18 @@
 }
 */
 
-#pragma mark - button actions 
 - (IBAction)unwindToList:(UIStoryboardSegue *)segue {
+    
+}
+
+#pragma mark - table view delegates
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+    
+    BatmanCharacter *tappedCharacter = [self.batmanCharacters objectAtIndex:indexPath.row];
+    tappedCharacter.characterViewed = !tappedCharacter.characterViewed;
+    
+    [tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
     
 }
 
