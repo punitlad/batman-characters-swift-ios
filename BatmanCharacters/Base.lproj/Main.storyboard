@@ -223,7 +223,7 @@
                     <navigationItem key="navigationItem" title="Batman Characters" id="fmG-hw-TIT">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="658-pm-r7r">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="STN-Ze-oOk"/>
+                                <segue destination="sjs-A0-ZP8" kind="presentation" id="STN-Ze-oOk"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -232,7 +232,7 @@
             </objects>
             <point key="canvasLocation" x="374" y="373"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Batman Character-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -258,10 +258,14 @@
                             <constraint firstItem="Fsr-xh-Uhv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ua4-kk-nGX"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Add Batman Character" id="UyA-n9-qhi">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="EtZ-5x-kA8"/>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="c48-tJ-VDN"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1152" y="382"/>
+            <point key="canvasLocation" x="1964" y="382"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cF1-24-4II">
@@ -280,6 +284,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ov3-SE-DGM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-382" y="373"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bDx-wX-lpV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sjs-A0-ZP8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PjJ-gm-mBi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="UO2-jH-5P8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gqj-6N-jmh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1152" y="382"/>
         </scene>
     </scenes>
 </document>
