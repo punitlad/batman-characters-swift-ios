@@ -33,6 +33,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"BatmanCharacterPrototypeCell"
                                                             forIndexPath:indexPath];
+    
     BatmanCharacter *batmanCharacter = [self.batmanCharacters objectAtIndex:indexPath.row];
     cell.textLabel.text = batmanCharacter.characterName;
     

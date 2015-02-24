@@ -12,10 +12,10 @@
 		CCA567971A9D074800540A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA567951A9D074800540A3A /* Main.storyboard */; };
 		CCA567991A9D074800540A3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA567981A9D074800540A3A /* Images.xcassets */; };
 		CCA5679C1A9D074800540A3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA5679A1A9D074800540A3A /* LaunchScreen.xib */; };
-		CCA567A81A9D074800540A3A /* BatmanCharactersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA567A71A9D074800540A3A /* BatmanCharactersTests.m */; };
 		CCA567B31A9D11C600540A3A /* AddBatmanCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA567B21A9D11C600540A3A /* AddBatmanCharacterViewController.m */; };
 		CCA567B61A9D12E500540A3A /* BatmanCharactersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA567B51A9D12E500540A3A /* BatmanCharactersTableViewController.m */; };
 		CCA567B91A9D192E00540A3A /* BatmanCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA567B81A9D192E00540A3A /* BatmanCharacter.m */; };
+		CCA567BB1A9D385E00540A3A /* BatmanCharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA567BA1A9D385E00540A3A /* BatmanCharacterTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +39,13 @@
 		CCA5679B1A9D074800540A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CCA567A11A9D074800540A3A /* BatmanCharactersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatmanCharactersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA567A61A9D074800540A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCA567A71A9D074800540A3A /* BatmanCharactersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatmanCharactersTests.m; sourceTree = "<group>"; };
 		CCA567B11A9D11C600540A3A /* AddBatmanCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBatmanCharacterViewController.h; sourceTree = "<group>"; };
 		CCA567B21A9D11C600540A3A /* AddBatmanCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBatmanCharacterViewController.m; sourceTree = "<group>"; };
 		CCA567B41A9D12E500540A3A /* BatmanCharactersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatmanCharactersTableViewController.h; sourceTree = "<group>"; };
 		CCA567B51A9D12E500540A3A /* BatmanCharactersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatmanCharactersTableViewController.m; sourceTree = "<group>"; };
 		CCA567B71A9D192E00540A3A /* BatmanCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatmanCharacter.h; sourceTree = "<group>"; };
 		CCA567B81A9D192E00540A3A /* BatmanCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatmanCharacter.m; sourceTree = "<group>"; };
+		CCA567BA1A9D385E00540A3A /* BatmanCharacterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatmanCharacterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 		CCA567A41A9D074800540A3A /* BatmanCharactersTests */ = {
 			isa = PBXGroup;
 			children = (
-				CCA567A71A9D074800540A3A /* BatmanCharactersTests.m */,
+				CCA567BA1A9D385E00540A3A /* BatmanCharacterTests.m */,
 				CCA567A51A9D074800540A3A /* Supporting Files */,
 			);
 			path = BatmanCharactersTests;
@@ -241,7 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCA567A81A9D074800540A3A /* BatmanCharactersTests.m in Sources */,
+				CCA567BB1A9D385E00540A3A /* BatmanCharacterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
