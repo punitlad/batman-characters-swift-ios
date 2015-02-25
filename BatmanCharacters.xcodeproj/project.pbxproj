@@ -87,15 +87,11 @@
 		CCA5678A1A9D074800540A3A /* BatmanCharacters */ = {
 			isa = PBXGroup;
 			children = (
-				CCA567B11A9D11C600540A3A /* AddBatmanCharacterViewController.h */,
-				CCA567B21A9D11C600540A3A /* AddBatmanCharacterViewController.m */,
-				CCA567B71A9D192E00540A3A /* BatmanCharacter.h */,
-				CCA567B81A9D192E00540A3A /* BatmanCharacter.m */,
+				CCA567BD1A9D755C00540A3A /* Models */,
+				CCA567BC1A9D755100540A3A /* Controllers */,
 				CCA5678F1A9D074800540A3A /* AppDelegate.h */,
 				CCA567901A9D074800540A3A /* AppDelegate.m */,
 				CCA567951A9D074800540A3A /* Main.storyboard */,
-				CCA567B41A9D12E500540A3A /* BatmanCharactersTableViewController.h */,
-				CCA567B51A9D12E500540A3A /* BatmanCharactersTableViewController.m */,
 				CCA567981A9D074800540A3A /* Images.xcassets */,
 				CCA5679A1A9D074800540A3A /* LaunchScreen.xib */,
 				CCA5678B1A9D074800540A3A /* Supporting Files */,
@@ -127,6 +123,26 @@
 				CCA567A61A9D074800540A3A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCA567BC1A9D755100540A3A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCA567B11A9D11C600540A3A /* AddBatmanCharacterViewController.h */,
+				CCA567B21A9D11C600540A3A /* AddBatmanCharacterViewController.m */,
+				CCA567B41A9D12E500540A3A /* BatmanCharactersTableViewController.h */,
+				CCA567B51A9D12E500540A3A /* BatmanCharactersTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CCA567BD1A9D755C00540A3A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCA567B71A9D192E00540A3A /* BatmanCharacter.h */,
+				CCA567B81A9D192E00540A3A /* BatmanCharacter.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

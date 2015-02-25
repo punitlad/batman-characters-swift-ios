@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>944F1EE0-35F8-4EBE-BCBC-65F663DBFBB4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BatmanCharacters</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DBC813265960138F76426D0BCE79A8323B42D93F</key>
+		<string>https://github.com/punitlad/batman_characters_app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BatmanCharacters.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DBC813265960138F76426D0BCE79A8323B42D93F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/punitlad/batman_characters_app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DBC813265960138F76426D0BCE79A8323B42D93F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DBC813265960138F76426D0BCE79A8323B42D93F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BatmanCharacters</string>
+		</dict>
+	</array>
+</dict>
+</plist>
