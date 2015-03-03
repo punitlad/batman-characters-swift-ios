@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BatmanCharacter.h"
+#import "BatmanCharacters-Swift.h"
 
 @interface AddBatmanCharacterViewController : UIViewController
 

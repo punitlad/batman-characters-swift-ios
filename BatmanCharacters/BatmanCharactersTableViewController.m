@@ -1,5 +1,5 @@
 #import "BatmanCharactersTableViewController.h"
-#import "BatmanCharacter.h"
+#import "BatmanCharacters-Swift.h"
 #import "AddBatmanCharacterViewController.h"
 
 @interface BatmanCharactersTableViewController ()

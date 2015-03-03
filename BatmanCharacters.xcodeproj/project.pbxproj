@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC5F173E1AA64402008FFE26 /* BatmanCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5F173D1AA64402008FFE26 /* BatmanCharacter.swift */; };
 		CCA5678E1A9D074800540A3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA5678D1A9D074800540A3A /* main.m */; };
 		CCA567911A9D074800540A3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA567901A9D074800540A3A /* AppDelegate.m */; };
 		CCA567971A9D074800540A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA567951A9D074800540A3A /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		CCA5679C1A9D074800540A3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA5679A1A9D074800540A3A /* LaunchScreen.xib */; };
 		CCA567B31A9D11C600540A3A /* AddBatmanCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA567B21A9D11C600540A3A /* AddBatmanCharacterViewController.m */; };
 		CCA567B61A9D12E500540A3A /* BatmanCharactersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA567B51A9D12E500540A3A /* BatmanCharactersTableViewController.m */; };
-		CCA567B91A9D192E00540A3A /* BatmanCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA567B81A9D192E00540A3A /* BatmanCharacter.m */; };
 		CCA567BB1A9D385E00540A3A /* BatmanCharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA567BA1A9D385E00540A3A /* BatmanCharacterTests.m */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC5F173C1AA64401008FFE26 /* BatmanCharacters-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BatmanCharacters-Bridging-Header.h"; sourceTree = "<group>"; };
+		CC5F173D1AA64402008FFE26 /* BatmanCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatmanCharacter.swift; sourceTree = "<group>"; };
 		CCA567881A9D074800540A3A /* BatmanCharacters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatmanCharacters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA5678C1A9D074800540A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCA5678D1A9D074800540A3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,8 +45,6 @@
 		CCA567B21A9D11C600540A3A /* AddBatmanCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBatmanCharacterViewController.m; sourceTree = "<group>"; };
 		CCA567B41A9D12E500540A3A /* BatmanCharactersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatmanCharactersTableViewController.h; sourceTree = "<group>"; };
 		CCA567B51A9D12E500540A3A /* BatmanCharactersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatmanCharactersTableViewController.m; sourceTree = "<group>"; };
-		CCA567B71A9D192E00540A3A /* BatmanCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatmanCharacter.h; sourceTree = "<group>"; };
-		CCA567B81A9D192E00540A3A /* BatmanCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatmanCharacter.m; sourceTree = "<group>"; };
 		CCA567BA1A9D385E00540A3A /* BatmanCharacterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatmanCharacterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,8 +139,8 @@
 		CCA567BD1A9D755C00540A3A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CCA567B71A9D192E00540A3A /* BatmanCharacter.h */,
-				CCA567B81A9D192E00540A3A /* BatmanCharacter.m */,
+				CC5F173D1AA64402008FFE26 /* BatmanCharacter.swift */,
+				CC5F173C1AA64401008FFE26 /* BatmanCharacters-Bridging-Header.h */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -245,10 +245,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCA567B91A9D192E00540A3A /* BatmanCharacter.m in Sources */,
 				CCA567B31A9D11C600540A3A /* AddBatmanCharacterViewController.m in Sources */,
 				CCA567911A9D074800540A3A /* AppDelegate.m in Sources */,
 				CCA567B61A9D12E500540A3A /* BatmanCharactersTableViewController.m in Sources */,
+				CC5F173E1AA64402008FFE26 /* BatmanCharacter.swift in Sources */,
 				CCA5678E1A9D074800540A3A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,9 +373,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = BatmanCharacters/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BatmanCharacters/BatmanCharacters-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -383,9 +388,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = BatmanCharacters/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BatmanCharacters/BatmanCharacters-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -393,6 +402,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -412,6 +423,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -442,6 +455,7 @@
 				CCA567AD1A9D074800540A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCA567AE1A9D074800540A3A /* Build configuration list for PBXNativeTarget "BatmanCharactersTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +464,7 @@
 				CCA567B01A9D074800540A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

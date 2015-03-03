@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BatmanCharacters-Swift.h"
 
 @interface BatmanCharactersTableViewController : UITableViewController
 
